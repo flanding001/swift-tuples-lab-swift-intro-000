@@ -16,59 +16,34 @@
  */
 // write your code here
 
-
-
-
-
-
-
+    var person: (name: String, age: Int) = ("Frederik", 50)
 
 /*: question2
  ### 2. Print out "<Name> is <Age> years old" using the tuple you created in Question 1.
  */
 // write your code here
-
-
-
-
-
-
-
+        print(person.name)
+        print(person.age)
 
 /*: question3
  ### 3. It is the person's birthday! Increment the person's age by one year that you created in Question 1.
  */
 // write your code here
-
-
-
-
-
-
-
+    person.age = person.age + 1
 
 /*: question4
  ### 4. Print out "Happy <Age> birthday, <Name>!" using the `person` variable.
  */
 // write your code here
-
-
-
-
-
-
-
+    print("Happy \(person.age) birthday, \(person.name)!")
 
 /*: question5
  ### 5. Create another person variable called `someone` using _named_ fields for the name and age.
  */
 // write your code here
 
-
-
-
-
-
+var name: String = "Frederik"
+var age: Int = 50
 
 
 /*: question6
@@ -76,7 +51,7 @@
  */
 // write your code here
 
-
+    print("\(name) is \(age) years old")
 
 
 
@@ -86,7 +61,7 @@
  ### 7. It is `someone`'s birthday! Increment `someone`'s age by one year.
  */
 // write your code here
-
+    age = age + 1
 
 
 
@@ -97,11 +72,7 @@
  ### 8. Print out "Happy <Age> birthday, <Name>!" using the `someone` variable.
  */
 // write your code here
-
-
-
-
-
+    print("Happy \(age) birthday, \(name)!")
 
 
 
@@ -110,17 +81,14 @@
  */
 // write your code here
 
-
-
-
-
-
+let human: (name: String, age: Int) = ("Frederik", 50)
 
 
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+ //   human.age = 51
+// No it's a constant
 
 
 
